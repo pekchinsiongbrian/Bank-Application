@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Apply Loan</title>
+<link rel="stylesheet" href="/bankservicesystem/global.css">
+<style>
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.input-fields {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	select {
+		width: 150px;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Apply Loan</h2>
+		<form action="/bankservicesystem/ApplyLoan">
+			<div class="input-fields">
+				<input type="text" name="loan" placeholder="loan amount" pattern="[0-9]+" required>
+				<br>
+				<label>Loan Type</label>
+				<select name="loan type" required>
+					<option value="personal">Personal</option>
+					<option value="housing">Housing</option>
+					<option value="vehicle">Vehicle</option>
+				</select>
+			</div>
+			<br>
+			<input class="submit-btn" type="submit" value="Apply">
+		</form>
+	</div>
+</body>
+</html>

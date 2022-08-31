@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+.submit-btn {
+		width: 100px;
+		height: 50px;
+		border-radius: 5px;
+		background-color: lightgray;
+		align-self: center;
+		border: none;
+		font-family: Arial;
+		font-size: 14px;
+}
+
+.submit-btn:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 2px gray;
+}
+
+.submit-btn:active {
+	background-color: gray;
+}
+
+.anchor-in-btn {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial;
+	font-size: 14px;
+}
